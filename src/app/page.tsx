@@ -1,7 +1,14 @@
-export default function Home() {
+import Hero from "@/components/Hero";
+
+export default function Page() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <>
+      <Hero />
+
+      {/* Ancres minimales pour la nav (à remplacer par tes vraies sections) */}
+      <section id="specialites" className="py-24" />
+      <section id="apropos" className="py-24" />
+      <section id="infos" className="py-24" />
+    </>
+  );
 }
