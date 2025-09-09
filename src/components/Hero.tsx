@@ -131,7 +131,7 @@ export default function Hero() {
             className="mt-4 max-w-2xl text-lg text-white/90"
           >
             Pains au levain, viennoiseries dorées, pâtisseries de saison. Simples,
-            bonnes, honnêtes — au cœur de votre quartier.
+            bonnes, honnêtes au cœur de votre quartier.
           </motion.p>
 
           {/* CTAs */}
@@ -149,13 +149,7 @@ export default function Hero() {
             >
               Découvrir nos créations
             </a>
-            <a
-              href="#infos"
-              className="rounded-full border border-white/55 px-5 py-3 text-sm font-medium text-white hover:bg-white/10
-                         transition focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
-            >
-              Horaires & contact
-            </a>
+            
           </motion.div>
 
           {/* Qualités */}
