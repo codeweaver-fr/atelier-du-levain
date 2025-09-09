@@ -1,14 +1,15 @@
 import Hero from "@/components/Hero";
+import Specialites from "@/components/Specialites";
+import APropos from "@/components/APropos";
+import Infos from "@/components/Infos";
 
 export default function Page() {
   return (
     <>
       <Hero />
-
-      {/* Ancres minimales pour la nav (à remplacer par tes vraies sections) */}
-      <section id="specialites" className="py-24" />
-      <section id="apropos" className="py-24" />
-      <section id="infos" className="py-24" />
+      <Specialites />   {/* id="specialites" est dans le composant */}
+      <APropos />       {/* id="apropos" */}
+      <Infos />         {/* id="infos" */}
     </>
   );
 }
